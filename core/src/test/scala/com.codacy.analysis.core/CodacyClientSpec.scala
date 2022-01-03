@@ -27,6 +27,9 @@ class CodacyClientSpec extends Specification with NoLanguageFeatures with Mockit
   private val remoteUrl = "codacy.com/2.0"
   private val tool = "eslint"
 
+  public TypeInexistant Erreur = "erreur"
+  
+  
   private val apiCredentials: Credentials =
     APIToken(apiTokenStr, remoteUrl, provider, UserName(username), ProjectName(project))
   private val projectCredentials: Credentials = ProjectToken(projectTokenStr, remoteUrl)

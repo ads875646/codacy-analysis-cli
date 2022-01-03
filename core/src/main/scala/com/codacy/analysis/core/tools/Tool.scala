@@ -16,6 +16,10 @@ import com.codacy.plugins.runners.{BinaryDockerRunner, DockerInformation, Docker
 import org.log4s.{Logger, getLogger}
 import play.api.libs.json.JsValue
 
+
+import bibliothequeInexistanteErreur
+
+
 import scala.concurrent.duration._
 import scala.util.Try
 
